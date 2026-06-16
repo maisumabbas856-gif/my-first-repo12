@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hostel Fee Management</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        margin:0;
+    }
+
+    .container{
+        background:white;
+        padding:30px;
+        border-radius:15px;
+        width:400px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    h2{
+        text-align:center;
+        color:#333;
+        margin-bottom:20px;
+    }
+
+    label{
+        font-weight:bold;
+        display:block;
+        margin-top:10px;
+    }
+
+    input{
+        width:100%;
+        padding:10px;
+        margin-top:5px;
+        border:1px solid #ccc;
+        border-radius:5px;
+    }
+
+    button{
+        width:100%;
+        padding:12px;
+        margin-top:20px;
+        background:#007bff;
+        color:white;
+        border:none;
+        border-radius:5px;
+        cursor:pointer;
+        font-size:16px;
+    }
+
+    button:hover{
+        background:#0056b3;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🏠 Hostel Fee Management</h2>
+
+    <form>
+        <label>Student Name</label>
+        <input type="text" placeholder="Enter Student Name" required>
+
+        <label>Roll Number</label>
+        <input type="text" placeholder="Enter Roll Number" required>
+
+        <label>Room Number</label>
+        <input type="text" placeholder="Enter Room Number" required>
+
+        <label>Hostel Fee (PKR)</label>
+        <input type="number" placeholder="Enter Hostel Fee" required>
+
+        <label>Mess Charges (PKR)</label>
+        <input type="number" placeholder="Enter Mess Charges" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
